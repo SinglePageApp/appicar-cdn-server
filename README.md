@@ -4,8 +4,10 @@ Appicar's CDN Server.
 
 ## Installation
 
-$ sudo npm install -g serve
+$ sudo apt install nginx
+$ chmod +x install.sh
+$ ./install.sh
 
-## Deployment
+## URL
 
-$ sudo serve -p 80
+http://cdn.appicar.com/

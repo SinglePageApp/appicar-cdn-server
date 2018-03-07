@@ -1,0 +1,9 @@
+server {
+  listen 80;
+  server_name cdn.appicar.com;
+
+  location / {
+    expires 90d;
+    root /var/www/appicar-cdn-server;
+  }
+}
